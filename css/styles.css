@@ -1,0 +1,188 @@
+body{
+  font-family: 'Space Mono', monospace;
+} 
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Space Mono', monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.container-fluid{
+  padding: 3% 8%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* tittle image*/
+
+.tittle-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  margin-left: 13%;
+}
+
+/* 2nd section */
+
+
+
+#features{
+  padding: 8% 13%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+h3{
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+
+p{
+  
+  color: #8f8f8f;
+}
+
+.box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon{
+  color: #ef8172;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.icon:hover{
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+/* 3rd page */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 8% 13%;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 13%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing page */
+
+#pricing{
+ padding: 100px;
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .tittle-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* 5t page */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  padding-top: 5%;
+}
+
+#cta p{
+  color: white;
+}
+
+.cta-button{
+  margin-top: 3%;
+
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.img1{
+  width: 20px;
+  cursor: pointer;
+}
+
+#footer ul li{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 5px 17px;
+  position: relative;
+}
